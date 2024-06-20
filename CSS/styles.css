@@ -26,19 +26,19 @@ header span {
   color: #2e2f42;
 }
 
-.studio :focus {
+.navitem {
+  color: #2e2f42;
+}
+
+.navitem:focus {
   color: #404bbf;
 }
 
-.studio :active {
+.navitem:active {
   color: #404bbf;
 }
 
-header nav ul li a:hover {
-  color: #404bbf;
-}
-
-header nav ul li a:active {
+.navitem:hover {
   color: #404bbf;
 }
 
@@ -49,17 +49,23 @@ address {
   color: #434455;
 }
 
-address ul li a {
-  color: #2e2f42;
-}
-address ul li a:hover {
+.adritem:focus {
   color: #404bbf;
 }
-address ul li a:active {
+.adritem {
+  color: #2e2f42;
+}
+.adritem:hover {
+  color: #404bbf;
+}
+.adritem:active {
   color: #404bbf;
 }
 
-.baner-solutions {
+.hero {
+  background-color: #2e2f42;
+}
+.main-titel {
   font-family: "Roboto", sans-serif;
   background-color: #2e2f42;
   font-weight: 700;
@@ -69,7 +75,8 @@ address ul li a:active {
   text-align: center;
   color: #fff;
 }
-.button-order-service {
+
+.hero-but {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -80,15 +87,15 @@ address ul li a:active {
   cursor: pointer;
 }
 
-.button-order-service:hover {
-  color: #404bbf;
+.hero-but:hover {
+  background-color: #404bbf;
 }
 
-.button-order-service:focus {
-  color: #404bbf;
+.hero-but:focus {
+  background-color: #404bbf;
 }
 
-h2 {
+.section-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -98,7 +105,7 @@ h2 {
   color: #2e2f42;
 }
 
-h3 {
+.title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -106,7 +113,17 @@ h3 {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.features p {
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+.features-discr {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
