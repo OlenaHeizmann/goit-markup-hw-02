@@ -53,7 +53,7 @@ address {
   color: #404bbf;
 }
 .adritem {
-  color: #2e2f42;
+  color: #434455;
 }
 .adritem:hover {
   color: #404bbf;
@@ -140,6 +140,9 @@ address {
   background-color: #f4f4fd;
 }
 
+.teammember {
+  background-color: #ffffff;
+}
 .team p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -149,7 +152,11 @@ address {
   color: #434455;
 }
 
-.portfolio p {
+.member-funktion {
+  font-size: 16px;
+}
+
+.supply {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -171,7 +178,7 @@ address {
 footer {
   background-color: #2e2f42;
 }
-footer span {
+.Logstudio {
   color: #f4f4fd;
 }
 footer p {
