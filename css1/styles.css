@@ -178,10 +178,10 @@ address {
 footer {
   background-color: #2e2f42;
 }
-.Logstudio {
+.logstudio {
   color: #f4f4fd;
 }
-footer p {
+.footer-deskription {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
