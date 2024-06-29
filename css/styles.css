@@ -1,3 +1,10 @@
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
@@ -30,15 +37,9 @@ header span {
   color: #2e2f42;
 }
 
-.navitem:focus {
-  color: #404bbf;
-}
-
+.navitem:focus,
+.navitem:hover,
 .navitem:active {
-  color: #404bbf;
-}
-
-.navitem:hover {
   color: #404bbf;
 }
 
@@ -49,17 +50,13 @@ address {
   color: #434455;
 }
 
-.adritem:focus {
+.adritem:focus,
+.adritem:hover,
+.adritem:active {
   color: #404bbf;
 }
 .adritem {
   color: #434455;
-}
-.adritem:hover {
-  color: #404bbf;
-}
-.adritem:active {
-  color: #404bbf;
 }
 
 .hero {
@@ -87,10 +84,7 @@ address {
   cursor: pointer;
 }
 
-.hero-but:hover {
-  background-color: #404bbf;
-}
-
+.hero-but:hover,
 .hero-but:focus {
   background-color: #404bbf;
 }
